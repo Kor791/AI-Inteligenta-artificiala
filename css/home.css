@@ -1,0 +1,63 @@
+/* Stilizari pentru sectiunea <main> */
+main {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .card {
+    max-width: 600px;
+    margin: 60px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+  }
+  .card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .card p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  .container h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .message-container {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .message-container .message {
+    margin-bottom: 20px;
+  }
+  
+  /* Stilizare pentru containerul cu galeria de poze */
+.photo-gallery {
+    display: flex; /* Elementele vor fi afișate pe un singur rând */
+    justify-content: space-between; /* Spațiere egală între imaginile de pe rând */
+    align-items: center; /* Aliniere verticală în centru */
+  }
+  
+  /* Stilizare pentru fiecare imagine */
+  .photo-gallery img {
+    flex: 1; /* Fiecare imagine va ocupa același spațiu pe rând */
+    max-width: 100%; /* Imaginile vor avea lățimea maximă de 100% */
+    height: auto; /* Înălțimea se va adapta în mod automat pentru a menține proporțiile imaginii */
+    margin-right: 10px; /* Spațiere între imaginile de pe rând */
+  }
+  /* Ultima imagine nu va avea margine dreapta pentru a menține distanța corectă între imaginile */
+.photo-gallery img:last-child {
+    margin-right: 0;
+  }

@@ -1,0 +1,134 @@
+/* Stilizare pentru div-ul cu clasa "container" */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Centrare text */
+}
+/* Stilizare pentru titlul din div-ul "container" */
+.container h1 {
+  font-size: 32px;
+  color: #007BFF; /* Text albastru pentru titlu */
+  margin-bottom: 20px;
+}
+/* Stilizare pentru textul din div-ul "container" */
+.container p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333; /* Text negru */
+}
+
+/* Stilizare pentru link-uri */
+.container a {
+  color: #007BFF; /* Text albastru pentru link-uri */
+  text-decoration: none;
+}
+/* Stilizare pentru link-uri la hover */
+.container a:hover {
+  text-decoration: underline;
+}
+
+/* Stilizare pentru div-ul cu clasa "media" */
+.media {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+/* Stilizare pentru div-ul cu clasa "articole" */
+.articole {
+  flex: 1;
+  margin-right: 20px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+/* Stilizare pentru titlul din div-ul "articole" */
+.articole h2 {
+  font-size: 24px;
+  color: #007BFF; /* Text albastru pentru titlu */
+  margin-bottom: 10px;
+}
+
+/* Stilizare pentru lista de articole din div-ul "articole" */
+.articole ul {
+  list-style: none;
+  padding: 0;
+}
+/* Stilizare pentru fiecare element din lista de articole din div-ul "articole" */
+.articole li {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Stilizare pentru link-uri din div-ul "articole" */
+.articole a {
+  color: #007BFF; /* Text albastru pentru link-uri */
+  text-decoration: none;
+}
+/* Stilizare pentru link-uri la hover din div-ul "articole" */
+.articole a:hover {
+  text-decoration: underline;
+}
+/* Stilizare pentru div-ul cu clasa "album" */
+.album {
+  flex: 1;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+/* Stilizare pentru titlul din div-ul "album" */
+.album h2 {
+  font-size: 24px;
+  color: #007BFF; /* Text albastru pentru titlu */
+  margin-bottom: 10px;
+}
+
+/* Stilizare pentru galeria foto din div-ul "album" */
+.album .photo-gallery {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* Stilizare pentru fiecare imagine din galeria foto din div-ul "album" */
+.album .photo-gallery img {
+  width: 30%;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 5px;
+}
+
+/* Stilizare pentru div-ul cu clasa "chestionar" */
+.chestionar {
+  margin-top: 30px;
+}
+/* Stilizare pentru titlul din div-ul "chestionar" */
+.chestionar h1 {
+  font-size: 28px;
+  color: #007BFF; /* Text albastru pentru titlu */
+  margin-bottom: 20px;
+}
+
+/* Stilizare pentru întrebări în div-ul "chestionar" */
+.chestionar .question {
+  margin-bottom: 20px;
+}
+
+/* Stilizare pentru răspunsuri în div-ul "chestionar" */
+.chestionar input[type="radio"] {
+  margin-right: 5px;
+}
+/* Stilizare pentru butonul din div-ul "chestionar" */
+.chestionar button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #007BFF; /* Fundal albastru pentru buton */
+  color: #fff; /* Text alb pentru buton */
+  border: none;
+  border-radius: 5
+}
+

@@ -1,0 +1,107 @@
+/* Stilizare pentru bara de navigare */
+nav {
+  background-color: #f8f8f8; /* Fundal gri deschis */
+  color: #333; /* Text negru */
+  display: flex;
+  justify-content: space-between; /* Butoane aliniate la dreapta */
+  align-items: center;
+  padding: 0px;
+  border-bottom: 1px solid #ccc; /* Linie sub bara de navigare */
+}
+nav {
+  /* alte stilizari existente */
+
+  /* Stilizari pentru ecrane mici (telefoane mobile) */
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #333;
+}
+
+.logo-link img {
+  width: 100px;
+  height: 80px;
+  margin-right: 10px;
+}
+nav a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: #f0f0f0; /* Fundal gri mai inchis la hover */
+}
+/* Stilizare pentru footer */
+footer {
+  background-color: #f8f8f8; /* Fundal gri deschis pentru footer */
+  color: #333; /* Text negru */
+  padding: 20px;
+  text-align: center;
+}
+/* Stilizare pentru footer */
+footer {
+  /* alte stilizari existente */
+
+  /* Stilizari pentru ecrane mici (telefoane mobile) */
+  @media screen and (max-width: 600px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+footer p {
+  margin: 0;
+}
+
+.footer-content {
+  flex: 1;
+}
+.footer-content h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.footer-content p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer-content ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-content ul li {
+  margin-bottom: 5px;
+}
+
+.social-links {
+  display: flex;
+}
+
+.social-links li {
+  margin-right: 10px;
+}
+.social-links img {
+  width: 30px;
+  height: 30px;
+}
+
+.footer-bottom {
+  background-color: #f0f0f0; /* Fundal gri mai inchis pentru footer */
+  padding: 10px 0;
+}
+.footer-bottom p {
+  margin: 0;
+  font-size: 14px;
+  color: #999;
+  text-align: center;
+}
